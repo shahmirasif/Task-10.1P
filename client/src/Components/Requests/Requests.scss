@@ -1,0 +1,130 @@
+#requests {
+	font-family: Roboto;
+	padding: 0 5%;
+
+	.new-requests {
+		.new-requests-title {
+			padding: 20px 0;
+			font-weight: 500;
+			font-size: 2rem;
+		}
+
+		.new-requests-type {
+			.new-requests-text {
+				font-size: 1.3rem;
+			}
+
+			.task-types {
+				display: flex;
+				flex-direction: column;
+
+				& input {
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	.new-request-description {
+		margin-top: 20px;
+
+		.new-request-description-text {
+			font-size: 1.3rem;
+		}
+
+		.new-request-description-content {
+			margin-top: 15px;
+			.description-row {
+				display: flex;
+				margin-bottom: 10px;
+				align-items: center;
+
+				label {
+					min-width: 150px;
+				}
+
+				input {
+					border: 1px solid #bfbfbf;
+					padding: 10px;
+					width: 300px;
+				}
+			}
+		}
+	}
+
+	.new-request-settings {
+		margin-top: 20px;
+
+		.new-request-settings-text {
+			font-size: 1.3rem;
+		}
+
+		.new-request-settings-content {
+			margin-top: 10px;
+
+			.new-request-title {
+				font-size: 1.2rem;
+				margin-bottom: 10px;
+			}
+
+			.new-request-desc {
+				font-size: 1.1rem;
+				margin-bottom: 10px;
+			}
+
+			.new-request-date {
+				font-size: 1.1rem;
+				margin-bottom: 10px;
+			}
+		}
+
+		.choice-task {
+			margin-top: 30px;
+
+			.choice-task-row {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.new-request-requirements {
+		margin-top: 20px;
+		.new-request-requirements-text {
+			font-size: 1.3rem;
+		}
+		.new-request-requirements-content {
+			margin-top: 10px;
+
+			.new-request-requirements-row {
+				.answer {
+					flex-direction: row;
+				}
+			}
+		}
+	}
+
+	.question {
+		margin-bottom: 5px;
+	}
+
+	.answer {
+		display: flex;
+		flex-direction: column;
+
+		.answer-container {
+			margin-bottom: 5px;
+
+			label {
+				padding-left: 5px;
+			}
+		}
+	}
+
+	button {
+		margin: 20px 0;
+		background-color: black;
+		color: white;
+		padding: 10px 40px;
+		border: none;
+	}
+}
